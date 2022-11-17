@@ -1,11 +1,13 @@
 /*
-    Derrick Davis
-    apply10.CSS
-    11/17/2022
+    Student Name: Christian Morgan
+	File Name: apply10.css
+	Current Date: 11/15/22
 */
 
 /* CSS reset */
-body, header, main, section, footer, h1, h2 {
+body, header, main, section, footer, h1, h2{
+
+} {
     margin: 0;
     padding: 0;
     border: 0;
@@ -54,17 +56,26 @@ button {
     height: 200px;
     background-color: #33091b;
     margin-left: 6%;
-    animation-duration: 5;
 }
-/* Animation */
+
+/*Animation*/
 @-webkit-keyframes color {
   from {background-color: #fbdae9;}
-  to {background-color: #660b32;}
+  to { background-color: #660b32;}
 }
 
 @keyframes color {
-  from {background-color:#fbdae9; }
-  to {background-color: #660b32;}
+  from{ background-color: #fbdae9;}
+  to { background-color:#660b32;}
+}
+
+div {
+  animation-name: color;
+  animation-duration: 5s;
+}
+.square:hover {
+  transform: translate(80px);
+
 }
 /* Style rules for the footer */
 footer {

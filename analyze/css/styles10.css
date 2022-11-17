@@ -1,11 +1,9 @@
 /*
-    Author:Derrick Davis
-    Date:11/17/2022
-    File Name: styles.css
+    Author:Christian Morgan
+    Date:11/17/22
+    File Name: styles10.css
 */
-img {
-	padding: 1em;
-}
+
 body {
 	background-color: #b3d9ff;
 }
@@ -57,11 +55,17 @@ main {
 	background-color: #fff;
 	border: inset 0.2em #7a6d68;
 }
-figure {
-	align: center;
-}
-placeholder {
+
+#placeholder{
 	display: none;
+}
+
+figure{
+	align-self: center;
+}
+
+img{
+	padding: 1em;
 }
 footer {
 	font-size: .90em;
