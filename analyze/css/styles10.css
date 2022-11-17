@@ -1,9 +1,11 @@
 /*
-    Author:
-    Date:
+    Author:Derrick Davis
+    Date:11/17/2022
     File Name: styles.css
 */
-
+img {
+	padding: 1em;
+}
 body {
 	background-color: #b3d9ff;
 }
@@ -35,14 +37,14 @@ nav ul {
 
 nav li {
 	display: inline;
-	list-style-type: none; 
-	margin: 0.3em; 
-	padding: 0.4em;  
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
 }
 
-nav li a { 
-	color: #0C1C96; 
-	text-decoration: none; 
+nav li a {
+	color: #0C1C96;
+	text-decoration: none;
 }
 
 main {
@@ -53,9 +55,14 @@ main {
 	padding: 1em;
 	border-radius: 6px;
 	background-color: #fff;
-	border: inset 0.2em #7a6d68; 
+	border: inset 0.2em #7a6d68;
 }
-
+figure {
+	align: center;
+}
+placeholder {
+	display: none;
+}
 footer {
 	font-size: .90em;
 	text-align: center;
