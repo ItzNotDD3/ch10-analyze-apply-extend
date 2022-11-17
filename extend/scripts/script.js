@@ -1,5 +1,5 @@
 /*
-    Student Name: Christian Morgan
+    Student Name: Derrick Davis
     File Name: script.js
     Date:11/15/22
 */
